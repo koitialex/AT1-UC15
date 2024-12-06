@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#tab1 {
+    background-color: #ccd3db;
+}
+
+.imgfone {
+    width: 220px;
+    height: 220px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border-width: 0;
+}
